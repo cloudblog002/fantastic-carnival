@@ -1,5 +1,8 @@
 <head>
   {{ partial "arsae-client.html" . }}
+{{ range .AlternativeOutputFormats }}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" title="{{ .Name }}" href="{{ .Permalink | safeURL }}">
+{{ end }}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {{ hugo.Generator }}
@@ -17,8 +20,6 @@
   {{ if ne .Section "post" }}<title>{{ .Site.Title }} - {{ .Site.Params.topdescription }}</title>{{ end }}
   {{ if eq .Section "post"}}<title>{{ .Title }} | {{ .Site.Title }}</title>{{ end }}
   {{ partial "schema.html" . }}
-{{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-{{ end -}}
+
   <meta name="p:domain_verify" content="b2024f7b379590bd84fcd7494d3c879e"/>
 </head>
