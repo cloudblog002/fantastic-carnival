@@ -1,6 +1,6 @@
 baseURL = "https://fantastic-carnival.netlify.app/"
 languageCode = "en-us"
-title = "FoodFavorito"
+title = "Fantastic Food"
 theme = "z"
 
 summaryLength = 70
@@ -21,7 +21,7 @@ googleAnalytics = ""
 [params]
   description = "The place for over 10,000 popular recipes for your complete cooking guide"
   topdescription = "The place for over 10,000 popular recipes for your complete cooking guide"
-  toptitle = "FoodFavorito"
+  toptitle = "Fantastic Food"
   contentBackgroundColor = "#fff"
   contentLinkColor = "#007bff"
   contentLinkHoverColor = "#0056b3"
