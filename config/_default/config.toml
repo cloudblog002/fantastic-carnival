@@ -4,8 +4,9 @@ title = "Fantastic Food"
 theme = "z"
 
 summaryLength = 70
-rssLimit = 20
 buildFuture = false
+
+rssLimit = 100
 
 enableGitInfo = false
 googleAnalytics = ""
