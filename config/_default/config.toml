@@ -1,4 +1,4 @@
-baseURL = "https://foodfavorito.netlify.app/"
+baseURL = "https://fantastic-carnival.netlify.app/"
 languageCode = "en-us"
 title = "FoodFavorito"
 theme = "z"
@@ -49,7 +49,7 @@ googleAnalytics = ""
 
 [author]
     name = "Clara Bernadette"
-    homepage = "https://foodfavorito.netlify.app/"
+    homepage = "https://fantastic-carnival.netlify.app/"
     bio = "True Food Lover"
     image = "https://i.imgur.com/qNQv8nK.jpg"
 
