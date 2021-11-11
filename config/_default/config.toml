@@ -50,6 +50,7 @@ googleAnalytics = ""
     name = "Clara Bernadette"
     homepage = "https://fantastic-carnival.netlify.app/"
     bio = "True Food Lover"
+	email = "me@example.com"
     image = "https://i.imgur.com/qNQv8nK.jpg"
 
 [markup]
