@@ -1,4 +1,4 @@
-{{- define "main" -}}
+{{ define "main" }}
 
 {{ $homepage := "Home" }}
 {{ with .Site.Menus.nav }}
@@ -10,4 +10,4 @@
 
 {{ partial "post-list.html" . }}
 
-{{- end -}}
+{{ end }}
